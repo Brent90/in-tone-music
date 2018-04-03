@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>In-Tone | Home</title>
+
+    <link type="text/css" rel="stylesheet" href="css/app.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <!--<a class="navbar-brand" href="#">Project name</a> -->
+          <h3><i class="fa fa-phone"> 000-000-0000</i></h3>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <!--<li><a href="#about">Services</a></li> -->
+            <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" ondblclick="serviceFunction()"  href="services.html">Services<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="repair.html">Repair</a></li>
+              <li><a href="lesssons.html">Lessons</a></li>
+             </ul>
+            </li>
+               
+                <li><a href="contact.html">Contact</a></li>
+                
+              </ul>
+          
+          
+           <ul class="nav navbar-nav navbar-right">
+              <li><a href="#"><i class="fa fa-facebook" title="Go To Our Facebook!"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitter" title="Go To Our Twitter!"></i></a></li>
+              <li><a href="#"><i class="fa fa-youtube" title="Go To Our Youtube Channel!"></i></a></li>
+          </ul>
+          
+          
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+
+   
+   <!-- SHOWECASE -->
+   
+   <div class="showcase">
+       <div class="container fade-in">
+           <h2>Like Music?</h2>
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita repellendus officia distinctio, asperiores harum hic non quam ipsam, ducimus, dolores accusamus. Delectus accusantium rerum consectetur possimus hic laboriosam suscipit voluptate.</p>
+           <hr>
+           <h3>OPEN: Monday – Friday, 10 AM – 7 PM</h3>
+           <h3>Walk-Ins Welcome</h3>
+       </div>
+   </div>
+   
+  <!-- END OF SHOWCASE --> 
+   
+   
+   
+  <!-- SECTION ABOUT US -->
+  
+  <div class="services">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-4">
+                  <img src="img/image1.jpeg" class="img-circle">
+                 <h4>Services</h4>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam magnam quasi, accusamus debitis tempora esse tenetur, ex ut harum porro animi ab maiores? Quo consequatur tempora totam labore, odit excepturi!</p>
+              </div>
+              
+               <div class="col-md-4">
+                  <img src="img/image2.jpeg" class="img-circle">
+                   <h4>Who We Are</h4>
+                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus similique totam eligendi qui, ab nihil expedita commodi vitae nemo voluptatibus.</p>
+              </div> 
+              
+              <div class="col-md-4">
+                 <img src="img/image3.jpeg" class="img-circle">
+                  <h4>Custom Guitars</h4>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque a rerum pariatur, qui consectetur, ex, nobis cum tempora harum sint veniam minus libero.</p>
+              </div>
+              
+              
+          </div>
+      </div>
+  </div>
+   
+  <!--END OF ABOUT US -->
+  
+  
+  <!-- STORE LOCATION -->
+  
+  <div class="location">
+     
+      <div class="container">
+         <h2>In-Tone: 0000 West Street</h2>
+          <img src="img/store-location.jpeg" class="img-responsive">
+      </div>
+      
+  </div>
+  
+  
+  <!--END OF STORE LOCATION -->
+   
+   
+  <!--FOOTER STUFF -->
+  <div class="footer">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-4">
+                  <h3>OUR LOCATION:</h3>
+                  <p>Open: Monday – Friday, 10 AM – 7 PM</p>
+                  <p>Walk-Ins Encouraged</p>
+                  <br>
+                  <p>In-Tone</p>
+                  <p>000 West Street</p>
+                  <br>
+                  <p>Tel: 000-000-0000</p>
+                  <p>Email: email@gmail.com</p>
+              </div>
+              <div class="col-md-4">
+                  <h3>Website By Brent</h3>
+              </div>
+              <div class="col-md-4">
+                  
+              </div>
+              
+          </div>
+          
+          
+      </div>
+  </div>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+    
+      
+  <script src="bower_components/jquery/dist/jquery.js"></script>
+  <script src="bower_components/bootstrap-sass/assets/javascripts/bootstrap.js"></script>
+
+  <script>
+     $(document).ready(function(){
+        console.log('hi');
+        $('.fade-in').fadeIn(1000);
+         
+     });
+      
+      
+     //This changes the page when you click on the service opition in the nav bar  
+    function serviceFunction(){
+        window.location.href = "services.html";
+    }
+      
+      
+      
+      
+ </script>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  </body>
+</html>
